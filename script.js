@@ -1,6 +1,5 @@
-function sing(song){
-    console.log(song);
-}
+var button= document.getElementsByTagName("button")[0];
 
-
-sing("AAAAAAAAAAAHHHHHHHHHHHHHHH");
+button.addEventListener("click", function(){
+    console.log("CLICK!!!");
+})
